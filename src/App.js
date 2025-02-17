@@ -61,6 +61,8 @@ function App() {
         {filteredCountries.length>0 ?(
           filteredCountries.map((ele,idx) =>(
             <div
+            key={idx}
+            className='countryCard'
               style={{
                display: "flex",
                flexDirection: "column",
